@@ -1,6 +1,6 @@
 # Realtime Chat with angular
 
-This project was generated with version 12.1.2.
+This project was generated with angular version 12.1.2.
 
 ## installation
 
