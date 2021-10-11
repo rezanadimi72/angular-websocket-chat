@@ -1,0 +1,38 @@
+<div class="overlay">
+    <!-- LOGN IN FORM by Omar Dsoky -->
+    <form>
+        <!--   con = Container  for items in the form-->
+        <div class="con">
+            <!--     Start  header Content  -->
+            <header class="head-form">
+                <h2>ورود</h2>
+              <br>
+              <br>
+              <br>
+                <!--     A welcome message or an explanation of the login form -->
+                <p>برای شروع چت ابتدا باید نام خود را وارد کنید</p>
+            </header>
+            <!--     End  header Content  -->
+            <br>
+            <div class="field-set">
+
+                <!--   user name -->
+
+                <!--   user namef Input-->
+                <input  [(ngModel)]="loginForm.name" class="form-input" name="name" id="txt-input" type="text" placeholder="نام و نام خانوادگی" >
+
+                <br>
+
+
+                <!--        buttons -->
+                <!--      button LogIn -->
+                <button class="log-in " (click)="doLogin()"> ورود</button>
+            </div>
+
+
+            <!--   End Conrainer  -->
+        </div>
+
+        <!-- End Form -->
+    </form>
+</div>
